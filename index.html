@@ -38,7 +38,7 @@
                 <h3>Atualização Importante para Jogo Popular</h3>
                 <p>A atualização 1.5 traz novos recursos e melhorias para o jogo ABC.</p>
             </article>
-            
+
         </aside>
     </setction>
     <section id="reviews">
@@ -72,12 +72,37 @@
         <p>Este projeto é uma iniciativa para criar um portal de notícias e
             análises de jogos para a comunidade gamer brasileira.</p>
         <li><a href="https://portalgamerbr.duckdns.org/">Portal Gamer BR</a></li>
-        <li><h2>O portal esta em php e vou criar um em html para ver a diferença de tecnologias.</h2></li>
+        <li>
+            <h2>O portal esta em php e vou criar um em html para ver a diferença de tecnologias.</h2>
+        </li>
     </section>
-    <footer>
-        <p>&copy; 2026 Portal Gamer BR. Todos os direitos reservados.</p>
+    <section>
+        <h2>Contato</h2>
+        <p>Entre em contato conosco para sugestões, dúvidas ou parcerias.</p>
+        <form action="">
+            <label for="nome">Nome:</label>
+            <input type="text" id="nome" name="nome" required><br><br>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required><br><br>
+            <label for="Telefone">Telefone:</label>
+            <input type="tel" id="telefone" name="telefone" required><br><br>
+            <label for="assunto">Assunto:</label>
+            <section id="assunto">
+                <select id="assunto" name="assunto" required>
+                    <option value="">Selecione um assunto</option>
+                    <option value="sugestao">Sugestão</option>
+                    <option value="duvida">Dúvida</option>
+                    <option value="parceria">Parceria</option>
+                </select><br><br>
+            </section>
+            <label for="mensagem">Mensagem:</label><br>
+            <textarea id="mensagem" name="mensagem" rows="4" cols="50" required></textarea><br><br>
+            <input type="submit" value="Enviar">
+        </form>
+        <footer>
+            <p>&copy; 2026 Portal Gamer BR. Todos os direitos reservados.</p>
 
-    </footer>
+        </footer>
 
 </body>
 
