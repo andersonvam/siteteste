@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário de Professor</title>
+</head>
+
+<body>
+
+    <h1>Formulário de Professor</h1>
+
+    <section id="formulario">
+        <h2>Preencha o formulário abaixo:</h2>
+        <form action="">
+            <label for="nome">Nome completo:</label> <br>
+            <input type="text" id="nome" name="nome" required><br><br>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required><br><br>
+
+            <label for="idade">Idade:</label><br>
+            <input type="number" id="idade" name="idade" required><br><br>
+
+            <label for="disciplina">Disciplina que leciona:</label><br>
+            <section" id="disciplina">
+                <input type="checkbox" id="matematica" name="disciplina" value="Matemática">
+                <label for="matematica">Matemática</label><br>
+
+                <input type="checkbox" id="portugues" name="disciplina" value="Português">
+                <label for="portugues">Português</label><br>
+
+                <input type="checkbox" id="ciencias" name="disciplina" value="Ciências">
+                <label for="ciencias">Ciências</label><br>
+
+                <input type="checkbox" id="historia" name="disciplina" value="História">
+                <label for="historia">História</label><br>
+
+                <input type="checkbox" id="geografia" name="disciplina" value="Geografia">
+                <label for="geografia">Geografia</label><br>
+    </section><br>
+    <section id="nivel">
+        <label for="nivel">Nível de ensino:</label><br>
+
+        <input type="select" id="nivel" name="nivel">
+        <option value="Superior Completo">Superior Completo</option>
+        <option value="Cursando Mestrado">Cursando Mestrado</option>
+        <option value="Cursando Doutorado">Cursando Doutorado</option>        
+        <option value="Doutorado Completo">Doutorado Completo</option>
+
+
+    </section><br>
+    <section id="Descricao">
+        <label for="descricao">Descrição pessoal:</label><br>
+        <textarea id="descricao" name="descricao" rows="20" cols="70"
+            placeholder="Escreva uma breve descrição sobre você..."></textarea><br><br>
+    </section>
+
+    </form>
+    <input type="submit" value="Enviar">
+
+
+</body>
+
+</html>
